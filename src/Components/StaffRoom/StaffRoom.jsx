@@ -4,7 +4,7 @@ import { logout } from "../../reducers/adminReducer";
 import Login from "../AuthPage/Login";
 import Registration from "../AuthPage/Registration";
 
-import Main from "../Main/Main";
+
 import "./staffRoom.css";
 
 const StaffRoom = () => {
