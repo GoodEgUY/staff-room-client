@@ -9,7 +9,7 @@ export const createLogin = async (email, password,adminName, phone ) => {
     );
     alert(response.data.message)
   } catch (e) {
-    alert("пизда тебе исправляй ошибку");
+    alert("Ошибка отправки запроса на сервер(No network)");
   }
 };
 export const signIn = (email, password) => {
