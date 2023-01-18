@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+ 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  text-decoration: none;
+  color:#2c2c2c
+}
+a:hover {
+  text-decoration:underline;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: Font-Light;
+  src: url(../public/fonts/Comfortaa-Light.ttf);
+}
+
+@font-face {
+  font-family: fontMedium;
+  src: url(../public/fonts/Comfortaa-Medium.ttf);
+}
+
+@font-face {
+  font-family: fontBold;
+  src: url(../public/fonts/Comfortaa-Bold.ttf);
+}

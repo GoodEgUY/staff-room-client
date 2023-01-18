@@ -1,0 +1,56 @@
+.authpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.authForm {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.authFormBody {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.authForm input {
+    padding: 10px 15px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid crimson;
+}
+
+.authForm input:focus {
+    outline: none;
+}
+
+.authForm button {
+    font-family: fontMedium;
+    height: 60px;
+    background-color: crimson;
+    border: 1px solid crimson;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+.authForm button:hover {
+    background-color: white;
+}
+
+input::placeholder {
+    font-size: 16px;
+    color: #9A9A9A;
+}
+
+.authNavItem {
+    font-size: 16px;
+}

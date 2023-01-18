@@ -1,0 +1,49 @@
+.mainMenu {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainMenuItem {
+    border:2px solid  crimson;
+
+    font-family: fontMedium;
+    width: 90vw;
+    background-color: crimson;
+    
+    height: 60px;
+    margin-bottom: 10px;
+}
+.mainMenuItem:hover {
+    background-color: #fff;
+}
+.dashboard {
+    font-family: fontMedium;
+}
+.pointView {
+    justify-content: space-between;
+    width: 300px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.pointButton {
+    border: none;
+    background-color: crimson;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-right: 3px;
+    padding: 10px 20px;
+    height: 30px;
+}
+.staffList {
+
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.staffList h1 {
+    margin-right: 20px;
+}
